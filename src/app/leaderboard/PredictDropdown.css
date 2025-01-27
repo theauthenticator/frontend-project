@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-ThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-BookItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Heavy.otf') format('opentype');
+    font-weight: 900;
+    /* Heavy */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-HeavyItalic.otf') format('opentype');
+    font-weight: 900;
+    /* Heavy */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Light.otf') format('opentype');
+    font-weight: 300;
+    /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    /* Light */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Medium.otf') format('opentype');
+    font-weight: 500;
+    /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    /* Medium */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Semibold.otf') format('opentype');
+    font-weight: 600;
+    /* Semibold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-SemiboldItalic.otf') format('opentype');
+    font-weight: 600;
+    /* Semibold */
+    font-style: italic;
+}
+
+
+.select-menu {
+    font-family: 'Cooper Hewitt';
+    width: 380px;
+    max-height: 55px;
+    background: #20232a;
+    border-radius: 8px;
+    color: #f0f0f0;
+    position: relative; /* Required for absolute positioning of the dropdown */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.001);
+}
+.select-menu .select-btn {
+    display: flex;
+    height: 55px;
+    max-height: 55px;
+    background: #20232a;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    justify-content: space-between;
+    color: #ffffff; /* Accent color for the button text */
+   /* border: 1px solid #30363d; */
+}
+.select-btn i {
+    font-size: 25px;
+    transition: transform 0.3s ease, color 0.3s;
+    color: #ffffff;
+}
+.select-menu.menuactive .select-btn i {
+    transform: rotate(-180deg);
+    color: #fff;
+}
+.select-menu .options {
+    position: absolute; /* Makes the dropdown independent of the parent layout */
+    top: 100%; /* Positions it just below the button */
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 8px;
+    background: #20232a;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: none; /* Hidden by default */
+    z-index: 10; /* Ensures it appears above other content */
+}
+.select-menu.menuactive .options {
+    display: block; /* Show when active */
+}
+.options .option {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 20px;
+    background: #20232a;
+    color: #f0f0f0;
+    transition: background 0.3s, color 0.3s;
+}
+.options .option:hover {
+    background: #30363d;
+}
+.option .option-text {
+    font-size: 16px;
+    color: inherit;
+}
