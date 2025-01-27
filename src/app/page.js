@@ -7,30 +7,43 @@ export default function Home() {
       <main className={styles.main}>
 
 
-      <a href="/dashboard" style={{
-    display: 'inline-block', 
-    padding: '10px 20px', 
-    backgroundColor: '#20232a', 
-    color: '#61dafb', 
-    textDecoration: 'none', 
-    borderRadius: '5px', 
-    textAlign: 'center',
-    marginRight: '10px'
-  }}>
-    Dashboard Design Page
-</a>
+        <a href="/dashboard" style={{
+          display: 'inline-block',
+          padding: '10px 20px',
+          backgroundColor: '#20232a',
+          color: '#61dafb',
+          textDecoration: 'none',
+          borderRadius: '5px',
+          textAlign: 'center',
+          marginRight: '10px'
+        }}>
+          Dashboard Design Page
+        </a>
 
-<a href="/leaderboard" style={{
-    display: 'inline-block', 
-    padding: '10px 20px', 
-    backgroundColor: '#20232a', 
-    color: '#61dafb', 
-    textDecoration: 'none', 
-    borderRadius: '5px', 
-    textAlign: 'center'
-  }}>
-    Leaderboard Design Page
-</a>
+        <a href="/leaderboard" style={{
+          display: 'inline-block',
+          padding: '10px 20px',
+          backgroundColor: '#20232a',
+          color: '#61dafb',
+          textDecoration: 'none',
+          borderRadius: '5px',
+          textAlign: 'center'
+        }}>
+          Leaderboard Design Page
+        </a>
+
+
+        <a href="/predict-events" style={{
+          display: 'inline-block',
+          padding: '10px 20px',
+          backgroundColor: '#20232a',
+          color: '#61dafb',
+          textDecoration: 'none',
+          borderRadius: '5px',
+          textAlign: 'center'
+        }}>
+          Predict Events Design Page
+        </a>
 
       </main>
       <footer className={styles.footer}>

@@ -1,0 +1,1211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lalezar&family=Roboto+Flex:opsz,slnt,wdth,wght@8..144,-1,112.5,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lalezar&family=Roboto+Flex:opsz,slnt,wdth,wght@8..144,-1,112.5,100..1000&display=swap');
+
+/* cyrillic */
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/l/font?kit=FwZc7-Am2FI_-VOxaLDvvq27pmO73q3LkQ&skey=96867d716c89840e&v=v19) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/l/font?kit=FwZc7-Am2FI_-VOxaLDvvq27rWO73q3LkQ&skey=96867d716c89840e&v=v19) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/l/font?kit=FwZc7-Am2FI_-VOxaLDvvq27rGO73q3LkQ&skey=96867d716c89840e&v=v19) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/l/font?kit=FwZc7-Am2FI_-VOxaLDvvq27omO73q3LkQ&skey=96867d716c89840e&v=v19) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-ThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-BookItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Heavy.otf') format('opentype');
+    font-weight: 900;
+    /* Heavy */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-HeavyItalic.otf') format('opentype');
+    font-weight: 900;
+    /* Heavy */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Light.otf') format('opentype');
+    font-weight: 300;
+    /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    /* Light */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Medium.otf') format('opentype');
+    font-weight: 500;
+    /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    /* Medium */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-Semibold.otf') format('opentype');
+    font-weight: 600;
+    /* Semibold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../../assets/fonts/cooper-hewitt/CooperHewitt-SemiboldItalic.otf') format('opentype');
+    font-weight: 600;
+    /* Semibold */
+    font-style: italic;
+}
+
+.no-event-placeholder {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    opacity: 0.77;
+}
+
+.pre-content {
+    width: 100vw;
+}
+
+
+.predict-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #15171a;
+    width: 100vw;
+    min-height: calc(100vh - 60px - 60px);
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.windowid {
+    font-size: 0.64rem;
+}
+
+.region-selection-wrapper {
+    display: flex;
+    flex: 0.1;
+    min-width: 100%;
+    justify-content: center;
+    font-weight: 500;
+
+}
+
+
+.region-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    font-weight: 500;
+    width: fit-content;
+    /* Adjusts width to fit the content */
+    margin-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+    flex-direction: column;
+    /* Adds rounded corners to the bottom left and right */
+    outline: 1px solid #383838;
+    /* Adds an outline around the element */
+    /* Adds padding for better spacing inside the container */
+    background-color: #15171a;
+    /* Optional: adds a background color for clarity */
+}
+
+.region-selection span {
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Cooper Hewitt';
+    font-weight: 500;
+    padding: 7px 8px 5px 8px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+
+/* .region-selection span:hover {
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Cooper Hewitt';
+    font-weight: 500;
+    padding: 7px 8px 5px 8px;
+    color: hsl(0, 0%, 51%);
+    background-color: rgba(132, 132, 132, 0.112);
+    font-weight: 500;
+}*/
+
+.region-selection .active {
+    font-family: 'Cooper Hewitt';
+    font-weight: 500;
+    padding: 7px 8px 5px 8px;
+    background-color: #0150d4;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
+
+
+
+.preview-section {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: top;
+    z-index: 1;
+    overflow: hidden;
+    border-left: 1px solid #383838;
+    border-right: 1px solid #383838;
+
+    h3 {
+        font-family: "Proxima Nova";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #161820;
+        padding-top: 3rem;
+        padding-bottom: 1.4rem;
+        width: 100%;
+    }
+}
+
+.live-tag {
+    position: absolute;
+    font-weight: 200;
+    top: 10px;
+    /* Adjust as needed */
+    left: 10px;
+    /* Adjust as needed */
+    background-color: red;
+    color: white;
+    padding: 2px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 3;
+    /* Ensures the "Live" tag is above the content */
+}
+
+.event-item {
+    display: flex;
+    flex-direction: column;
+    font-family: Cooper Hewitt;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 200px;
+    /* Adjust height as needed */
+}
+
+.event-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40%;
+    border-radius: 8px;
+    /* Adjust height of gradient overlay */
+    background: linear-gradient(to top, rgba(0, 0, 0, 17), transparent);
+    z-index: 1;
+    /* Ensure the gradient overlay is above the background */
+}
+
+.event-item-content {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 800;
+    font-style: normal;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-wrap-mode: wrap;
+    word-wrap: break-word;
+    height: 100%;
+    z-index: 2;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    text-overflow: ellipsis;
+
+    .event-name {
+        max-width: inherit;
+        font-size: 1.4rem;
+        font-style: normal;
+        overflow: hidden;
+        text-wrap: wrap;
+        text-wrap-mode: wrap;
+    }
+
+
+    .time-remaining {
+        font-style: italic;
+    }
+
+}
+
+.scrollable-events-container .event-item {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    /* Smooth zoom and opacity changes */
+}
+
+
+
+.scrollable-events-container .event-item:hover {
+    transform: scale(1.05);
+    /* Slightly zooms in on hover */
+    z-index: 1;
+    /* Brings the card to the top, so it doesn’t get clipped */
+}
+
+.event-item.greyed-out {
+    opacity: 0.4;
+    /* Makes the card semi-transparent */
+    filter: grayscale(30%);
+    /* Converts the card to grayscale */
+}
+
+.event-item.greyed-out:hover {
+    opacity: 1;
+    pointer-events: all;
+    filter: grayscale(5%);
+}
+
+
+.plus-sign {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 4px;
+    justify-content: center;
+    align-items: center;
+    /* Adjust spacing as needed */
+
+}
+
+.title-wrapper-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /* Allow flexible height */
+    min-width: 800px;
+    max-width: 800px;
+    background-color: #111117;
+    /* Optional: Add a background */
+}
+
+.title-wrapper {
+    max-width: 800px;
+    display: flex;
+    /* Use flexbox for layout */
+    flex-direction: row;
+    /* Stack items vertically by default */
+    width: 100%;
+    overflow: hidden;
+    padding-top: 1rem;
+    gap: 1rem;
+    box-sizing: border-box;
+
+
+    background-color: #15171a;
+
+}
+
+/* Tournament Info */
+.tournament-info {
+    display: flex;
+    flex: 0.7;
+    justify-content: space-between;
+    /* Space out content horizontally */
+    align-items: center;
+    flex-wrap: wrap;
+    /* Wrap items on smaller screens */
+}
+
+.prediction-alert {
+    /* Adjust the section size */
+    padding-top: 4px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* Align text to the left */
+}
+
+
+.gradient-circle {
+    width: 2.3rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff4e50, #c31432);
+    /* Vibrant red gradient */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow */
+    border: 2px solid #c31432;
+    /* Optional border for sharpness */
+}
+
+.icon-inner {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* Ensures the icon stays centered */
+    height: 100%;
+}
+
+.icon-inner ion-icon {
+    font-size: 1.3rem;
+    /* Adjust icon size here */
+    color: white;
+    /* Icon color for contrast */
+    line-height: 1;
+}
+
+
+.alert-message {
+    display: flex;
+    width: 100%;
+    padding-top: 1px;
+    padding-left: 10px;
+    font-size: 1.35rem;
+    font-family: "Proxima Nova";
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+    flex-direction: column;
+    color: #939393;
+}
+
+/* Add a hover effect for interactivity */
+.icon-wrapper:hover {
+    transform: scale(1.1);
+    /* Slightly increase size on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    /* Enhance shadow on hover */
+}
+
+.tournament-title {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 2.0rem;
+    justify-content: center;
+    align-items: left;
+    font-family: 'Cooper Hewitt';
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+    flex-direction: column;
+
+
+
+}
+
+.tournament-window {
+    display: flex;
+    width: 100%;
+    padding-top: 1px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: left;
+    font-family: "Proxima Nova";
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+    flex-direction: column;
+
+
+
+}
+
+
+.prediction-status {
+    width: 100%;
+    /* Ensure it stretches to full parent width */
+    display: flex;
+    flex-grow: 1;
+    gap: 0.5rem;
+    /* Allow it to grow within a flex container */
+    align-items: left;
+    /* Proper alignment */
+    justify-content: left;
+    padding-top: 10px;
+    font-size: 0.8rem;
+    color: #939393;
+    box-sizing: border-box;
+    /* Includes padding in width calculation */
+}
+
+.time-left {
+    padding-right: 6px;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Center content horizontally */
+    font-size: 0.9rem;
+    color: #f1f1f1;
+    border-radius: 3px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    white-space: nowrap;
+    /* Prevent text wrapping */
+    gap: 10px;
+    height: 40px;
+    /* Adds spacing */
+}
+
+/* Prediction Tools */
+.prediction-tools {
+    padding-top: 10px;
+    display: flex;
+    flex: 0.3;
+    width: 100%;
+    flex-direction: column;
+    justify-content: top;
+    /* Center buttons */
+    align-items: top;
+    gap: 0.5rem;
+    /* Add spacing between buttons */
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
+}
+
+
+/* CSS */
+.prediction-tools-button {
+    display: flex;
+    background-color: #0150d4;
+    border-radius: 3px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 240px;
+    display: inline-block;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+
+
+.prediction-tools button:hover {
+    background-color: #0959e5;
+    /* Slightly darker hover effect */
+}
+
+.preview-container-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    min-width: auto;
+    height: 100%;
+    background-color: #161820;
+
+}
+
+
+.prediction-container-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: #0a1426;
+
+}
+
+.rank-column-preview {
+
+    display: flex;
+    flex: 0.3;
+    justify-content: top;
+    align-items: top;
+    flex-direction: column;
+    padding-left: 26px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-left: 1px solid #1c1c23;
+    background-color: #161820;
+}
+
+.rank-column-prediction {
+    flex: 0.7;
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-left: 1px solid #1c1c23;
+    background-color: #161820;
+}
+
+.rank {
+
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600 !important;
+    text-align: center;
+    display: flex;
+    width: 45px !important;
+    height: 45px !important;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 2.4rem;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.rank.odd-item {
+    font-weight: 300 !important;
+    font-size: 1.1rem;
+}
+
+.rank.even-item {
+    font-weight: 300 !important;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+.rank-1 {
+    border-radius: 50%;
+    font-size: 1.5rem;
+    height: 45px !important;
+    background-color: #cbb765;
+    /* Gold for 1st place */
+    color: white;
+    font-weight: bold;
+    border: white;
+    border: 1.6px solid rgb(204, 204, 204)765;
+}
+
+.rank-2 {
+    border-radius: 50%;
+    font-size: 1.5rem;
+    height: 45px !important;
+    background-color: silver;
+    /* Silver for 2nd place */
+    color: white;
+    font-weight: bold;
+}
+
+.rank-3 {
+    border-radius: 50%;
+    height: 45px !important;
+    font-size: 1.5rem;
+    background-color: #cd7f32;
+    /* Bronze for 3rd place */
+    color: white;
+    font-weight: bold;
+}
+
+.greyed-out {
+    opacity: 0.5;
+}
+
+.prediction-section {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: top;
+
+    border-right: 1px solid #383838;
+
+    h3 {
+        font-family: "Proxima Nova";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #161820;
+        padding-top: 3rem;
+        padding-bottom: 1.4rem;
+        height: auto;
+        width: 100%;
+    }
+}
+
+.wrapper-container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+}
+
+.tp-container {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 100%;
+
+
+}
+
+
+
+.events-container {
+    /* Make this the positioning context */
+    align-items: top;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    flex: 0.9;
+    position: relative;
+    /* Ensure no overflow outside the container */
+}
+
+
+.scrollable-events-preceding-wrapper {
+    min-height: 100%; 
+    /*  height: 350px !important; */
+    /* min-height: 350px !important; */
+
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    max-width: 90%;
+    overflow: hidden;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.scrollable-events-wrapper {
+    display: flex;
+    /* Hide overflowing content */
+    width: 100%;
+    justify-content: center;
+    align-items: top;
+    align-content: center;
+    align-self: center;
+    min-height: calc(74.075vh); 
+    height: 100%; 
+    flex-grow: 1;
+    /*  height: 350px !important; */
+    /* min-height: 350px !important; */
+
+}
+
+.scrollable-events-container {
+    flex-grow: 1;
+    min-width: 100%;
+    min-height: 100%; 
+    /*  height: 350px !important; */
+    /* min-height: 350px !important; */
+    max-height: calc(54.075vh); 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(54.075vh), 1fr));
+    grid-template-rows: 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    white-space: nowrap;
+    grid-auto-flow: column;
+    transition: transform 0.5s ease, width 0.5s ease;
+    /* Animate width changes */
+
+}
+
+
+
+
+.nav-overlay-left,
+.nav-overlay-right {
+    display: flex;
+    width: 100%;
+    min-height: calc(54.075vh); 
+    z-index: 10000;
+    flex: 0.1;
+    align-self: top;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.nav-button {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(158, 158, 158, 0.8);
+    z-index: 1;
+
+    ion-icon {
+        font-size: 30px;
+        z-index: 1;
+    }
+
+
+}
+
+.nav-button:hover {
+    background-color: rgba(158, 158, 158, 0.94);
+    transition: opacity 0.3s ease;
+}
+
+
+/* Global scrollbar styling */
+.scrollable-events-container::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.scrollable-events-container::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 100px;
+}
+
+.scrollable-events-container::-webkit-scrollbar-thumb {
+    /* background-color: #d4aa70; */
+    background-color: white;
+    border-radius: 100px;
+}
+
+
+.event-item {
+    display: inline-block;
+    min-height: calc(54.075vh); 
+    background-color: #20232a;
+    color: #61dafb;
+    border-radius: 8px 8px 0px 0px;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    font-size: 1rem;
+    text-align: center;
+    width: 350px;
+
+    cursor: pointer;
+    zoom: 1;
+
+    /* Optional: Adds a shadow to the text for better readability */
+    background-size: 120%;
+    background-position: center -12px;
+}
+
+
+.preview-container-wrapper .droppable-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1.4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    background-color: #161820;
+
+
+}
+
+.prediction-container-wrapper .droppable-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    min-height: 100%;
+    background-color: #161820;
+
+
+}
+
+.draggable-item {
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.preview-container-wrapper .draggable-item.even-item {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex: 1 1 auto;
+    /* Let it respect parent's width */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-bottom: 0.8rem;
+    height: 45px !important;
+    max-height: 45px !important;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    color: rgb(255, 255, 255);
+
+    text-wrap-mode: nowrap;
+    text-overflow: ellipsis;
+    z-index: 1300;
+
+
+}
+
+.preview-container-wrapper .draggable-item.odd-item {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-bottom: 0.8rem;
+    height: 45px !important;
+    color: rgb(255, 255, 255);
+    /* background: rgba(158, 158, 158, 0.212); */
+    z-index: 1300;
+
+
+
+}
+
+
+
+.prediction-container-wrapper .draggable-item.even-item {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-bottom: 0.8rem;
+    min-height: 45px !important;
+    height: 45px !important;
+    color: rgb(255, 255, 255);
+    text-wrap-mode: nowrap;
+    text-overflow: ellipsis;
+    z-index: 1300;
+
+
+}
+
+.prediction-container-wrapper .draggable-item.odd-item {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-bottom: 0.8rem;
+
+    min-height: 45px !important;
+    height: 45px !important;
+    color: rgb(255, 255, 255);
+    z-index: 1300;
+
+}
+
+
+
+/* Adjusting the prediction section separately, if needed */
+.prediction-container {
+    min-height: 100%;
+
+}
+
+.section-title {
+    display: flex;
+
+
+}
+
+.select-menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* Adjust styles for tablets */
+@media (max-width: 768px) {
+    .region-selection-wrapper {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center items horizontally */
+        padding: 15px;
+        /* Add more padding for smaller screens */
+    }
+
+    .select-menu-wrapper {
+        display: flex;
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 20px !important;
+    }
+
+    .region-selection {
+        width: 100%;
+        /* Full width */
+        gap: 10px;
+        /* Smaller gap between items */
+    }
+
+    .region-selection span {
+        padding: 8px 12px;
+        /* Slightly smaller padding */
+    }
+}
+
+/* Adjust styles for mobile devices */
+@media (max-width: 480px) {
+
+    .predict-container {
+        width: 100vw;
+        max-width: 100vw;
+        align-items: center;
+        justify-content: center;
+        z-index: 0;
+    }
+
+
+
+    .nav-overlay-left .nav-overlay-right {
+        display: none;
+    }
+
+    .tournament-title {
+        font-size: 1.1rem;
+
+    }
+
+    .prediction-tools {
+        padding: 10px;
+
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .prediction-tools {
+        flex: 0.3;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .region-selection {
+        flex-direction: column;
+    }
+
+    .title-wrapper-container {
+        height: 7.8rem;
+    }
+
+
+    .tournament-info {
+        flex-direction: column;
+        /* Stack elements vertically */
+        align-items: center;
+        text-align: center;
+    }
+
+    .title-wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /* Center-align content for small screens */
+        padding: 1rem;
+    }
+
+
+
+    .tp-container {
+        width: 100vw;
+        max-width: 100vw;
+    }
+
+    .region-selection-wrapper {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center items horizontally */
+        padding: 10px;
+        /* Add padding for mobile */
+    }
+
+    .region-selection {
+        width: 100%;
+        /* Full width */
+        gap: 8px;
+        /* Reduced gap for small screens */
+    }
+
+    .region-selection span {
+        padding: 6px 10px;
+        /* Further reduced padding */
+        font-size: 14px;
+        /* Smaller text size for mobile */
+    }
+
+    .region-selection span:hover {
+        padding: 6px 10px;
+        /* Consistent padding */
+        font-size: 14px;
+        /* Ensure font size remains readable */
+    }
+
+    .region-selection .active {
+        font-size: 14px;
+        /* Keep active span font size manageable */
+    }
+}
